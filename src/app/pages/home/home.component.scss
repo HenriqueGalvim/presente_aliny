@@ -1,0 +1,114 @@
+.container{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #fff5e6, #ffc1c1);
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #8b0000;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.explore-button {
+  font-size: 1rem;
+  font-weight: bold;
+  animation: bounceIn 2s ease-in-out;
+}
+
+/* Corações decorativos */
+.hearts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+mat-icon {
+  color: #ff6f61;
+  margin: 0 5px;
+  animation: float 2s infinite ease-in-out alternate;
+}
+#messageSection {
+  width: 100%;
+  max-width: 900px; /* Limite de largura */
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 10px;
+  }
+
+  .hero-section .title {
+    font-size: 2rem;
+  }
+
+  .hero-section .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-section .explore-button {
+    font-size: 0.9rem;
+  }
+    #messageSection {
+    max-width: 100%; /* Largura total em dispositivos menores */
+    padding: 10px 0;
+  }
+}
+
