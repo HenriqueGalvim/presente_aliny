@@ -122,9 +122,38 @@
 }
 
 .controls {
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
 
-  mat-slide-toggle {
-    color: #8b0000;
+  button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.3s, transform 0.2s;
+
+    &.pausar {
+      background-color: #8b0000;
+
+      &:hover {
+        background-color: darken(#8b0000, 10%);
+      }
+    }
+
+    &.ativar {
+      background-color: #00ced1;
+
+      &:hover {
+        background-color: darken(#00ced1, 10%);
+      }
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
   }
 }

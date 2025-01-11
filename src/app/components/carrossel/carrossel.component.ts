@@ -46,8 +46,13 @@ export class CarrosselComponent {
   }
 
   toggleAutoSlide(): void {
-    this.autoSlide = !this.autoSlide;
-    if (this.autoSlide) {
+    if (this.autoSlide == false) {
+      this.autoSlide = true
+    }else{
+      this.autoSlide = false
+    }
+    console.log(this.autoSlide)
+    if (this.autoSlide == true) {
       this.startAutoSlide();
     } else {
       this.stopAutoSlide();

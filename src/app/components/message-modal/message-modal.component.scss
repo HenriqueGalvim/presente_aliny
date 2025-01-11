@@ -1,6 +1,28 @@
+.mat-card {
+  background-color: #fdf5e6; /* Tom neutro */
+  border-radius: 12px;
+}
+
+.mat-card-title {
+  color: #8b0000; /* Vermelho escuro */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.message-text {
+  color: #333333; /* Texto suave */
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 200px;
+  white-space: normal;
+}
+
 .fotos {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   margin-top: 15px;
 
@@ -9,11 +31,40 @@
     height: 100px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.1);
     }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+
+.close-button {
+  background-color: #8b0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #a52a2a;
+  }
+}
+
+@media (max-width: 768px) {
+  .mat-card-title {
+    font-size: 1.3rem;
   }
 }

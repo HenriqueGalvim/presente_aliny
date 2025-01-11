@@ -42,7 +42,9 @@
 </div>
 
 <div class="controls">
-  <mat-slide-toggle [(ngModel)]="autoSlide" (change)="toggleAutoSlide()">
-    Automático
-  </mat-slide-toggle>
+  <button [ngClass]="{ 'pausar': autoSlide, 'ativar': !autoSlide }"
+          (click)="toggleAutoSlide()">
+    {{ autoSlide ? 'Desativar carrossel automático' : 'Ativar carrossel automático' }}
+  </button>
 </div>
+
