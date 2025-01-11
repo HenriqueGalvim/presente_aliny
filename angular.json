@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mensagens",
+            "outputPath": "dist/presente_aliny",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
