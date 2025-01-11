@@ -12,7 +12,6 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { FormsModule } from '@angular/forms';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
-import { NguCarouselModule } from '@ngu/carousel';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MessageModalComponent } from './components/message-modal/message-modal.component';
 
@@ -33,7 +32,6 @@ import { MessageModalComponent } from './components/message-modal/message-modal.
     MatSlideToggleModule,
     FormsModule,
     MatProgressBarModule,
-    NguCarouselModule,
     MatDialogModule
   ],
   providers: [],
