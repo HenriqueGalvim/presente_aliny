@@ -56,7 +56,7 @@ export class MessageService {
     {
       nome: 'Nana',
       mensagem: 'E que, por fim, cresçamos juntas e conquistemos tudo. Você é a minha maior inspiração e meu maior orgulho, a pessoa que mais admiro. Que sorte a minha te ter, eu amo você ❤️',
-      fotos: ['assets/snop8.jpeg'],
+      fotos: ['assets/snop8.jpg'],
     },
   ];
 
