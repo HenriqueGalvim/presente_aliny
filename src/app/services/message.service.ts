@@ -53,6 +53,11 @@ export class MessageService {
       mensagem: 'Que escutemos Nando Reis, Pitty, Mc Carol, Gal Costa, Bebe Rexha, AnaVitoria, que assistamos Crepúsculo, Lei e ordem, Virgin River, Ilhados com a sogra. Que passemos os feriados que pudermos juntinhas, no nosso estilo de vida de casadinhas',
       fotos: ['assets/fofas2.jpeg'],
     },
+    {
+      nome: 'Nana',
+      mensagem: 'E que, por fim, cresçamos juntas e conquistemos tudo. Você é a minha maior inspiração e meu maior orgulho, a pessoa que mais admiro. Que sorte a minha te ter, eu amo você ❤️',
+      fotos: ['assets/snop8.jpeg'],
+    },
   ];
 
   getMessages(): Message[] {
