@@ -48,6 +48,11 @@ export class MessageService {
       mensagem: 'Cada dia que passa, só sei te amar mais, sentir mais e ser grata por você. Quero dividir o resto da minha vida com você, a pessoa que mais amor no mundo!',
       fotos: ['assets/fofas.jpeg'],
     },
+    {
+      nome: 'Nana',
+      mensagem: 'Que escutemos Nando Reis, Pitty, Mc Carol, Gal Costa, Bebe Rexha, AnaVitoria, que assistamos Crepúsculo, Lei e ordem, Virgin River, Ilhados com a sogra. Que passemos os feriados que pudermos juntinhas, no nosso estilo de vida de casadinhas',
+      fotos: ['assets/fofas2.jpeg'],
+    },
   ];
 
   getMessages(): Message[] {
