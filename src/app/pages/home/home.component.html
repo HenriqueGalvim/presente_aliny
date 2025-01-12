@@ -1,19 +1,14 @@
 <div class="container">
   <div class="home-container">
-    <!-- Seção de destaque inicial -->
     <div class="hero-section">
       <div class="hearts">
         <mat-icon>favorite</mat-icon>
         <mat-icon>favorite</mat-icon>
         <mat-icon>favorite</mat-icon>
       </div>
-      <h1 class="title">Bem vinda querida Aliny</h1>
-      <p class="subtitle">
-        Aqui se encontra mensagens e lembranças para uma pessoa tão especial que é você
-      </p>
+      <h1 class="title">Bem-vinda querida Aliny</h1>
+      <p class="subtitle">Aqui se encontram mensagens e lembranças para uma pessoa tão especial que é você</p>
     </div>
-
-    <!-- Carrossel de mensagens -->
     <div id="messageSection">
       <app-carrossel [items]="messages">
         <app-message-card *ngFor="let msg of messages" [message]="msg"></app-message-card>
@@ -21,5 +16,3 @@
     </div>
   </div>
 </div>
-
-
