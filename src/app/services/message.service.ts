@@ -33,6 +33,21 @@ export class MessageService {
       mensagem: 'Vou alimentar esse site diariamente e melhorar ele com o tempo. Espero que possa ajudar você a passar pelos momentos dificeis. Nunca se esqueça, você não esta sozinha.',
       fotos: ['assets/snop5.jpg'],
     },
+    {
+      nome: 'Nana',
+      mensagem: 'Sabe que seu dia é mais do que especial, não é? Aniversário da pessoa mais importante da minha vida! E que vamos continuar comemorando toooodos os anos ❤️',
+      fotos: ['assets/snop6.jpeg'],
+    },
+    {
+      nome: 'Nana',
+      mensagem: 'Todo dia é dia de te mostrar o quanto você significa, o quanto você é importante. E palavras e gestos nunca deixarão de ser mostrados ❤️',
+      fotos: ['assets/snop7.jpg'],
+    },
+    {
+      nome: 'Nana',
+      mensagem: 'Cada dia que passa, só sei te amar mais, sentir mais e ser grata por você. Quero dividir o resto da minha vida com você, a pessoa que mais amor no mundo!',
+      fotos: ['assets/fofas.jpeg'],
+    },
   ];
 
   getMessages(): Message[] {
